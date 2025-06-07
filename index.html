@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaun Banega Crorepati</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-header">
+            <h1>Kaun Banega Crorepati</h1>
+            <div class="score-display">Current Prize: ₹<span id="current-prize">0</span></div>
+        </div>
+
+        <div class="game-content">
+            <div class="question-container">
+                <h2 id="question-text">Question will appear here</h2>
+                <div class="options-container">
+                    <button class="option" data-index="1">Option 1</button>
+                    <button class="option" data-index="2">Option 2</button>
+                    <button class="option" data-index="3">Option 3</button>
+                    <button class="option" data-index="4">Option 4</button>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="start-game">Start Game</button>
+                <button id="exit-game">Exit Game</button>
+            </div>
+        </div>
+
+        <div class="prize-ladder">
+            <h3>Prize Money</h3>
+            <ul id="prize-list">
+                <li>₹40,000</li>
+                <li>₹20,000</li>
+                <li>₹10,000</li>
+                <li>₹5,000</li>
+                <li>₹3,000</li>
+                <li>₹2,000</li>
+                <li>₹1,000</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
